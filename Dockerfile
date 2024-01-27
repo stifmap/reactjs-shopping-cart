@@ -1,5 +1,5 @@
 # use a node base image
-FROM node:21.6 
+FROM node:21.6-bookworm-slim 
 
 # Create app directory
 WORKDIR /usr/src/app
